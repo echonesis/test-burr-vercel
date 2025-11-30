@@ -58,4 +58,6 @@ def run_burr_counter(input_data: CounterInput):
     except Exception as e:
         print(f"Burr execution failed: {e}")
         raise HTTPException(status_code=500, detail=f"Internal Server Error during Burr execution: {e}")
-        
+
+# Vercel serverless function handler
+handler = app

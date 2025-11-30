@@ -1,0 +1,4 @@
+burr
+fastapi
+pydantic
+uvicorn[standard]
